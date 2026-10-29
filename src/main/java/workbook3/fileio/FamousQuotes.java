@@ -31,7 +31,6 @@ public class FamousQuotes {
                 } else if (quoteGenerator == 'R') {
                     String selectedQuote = quotes[random.nextInt(quotes.length)];
                     // quote[] - pulls the list of quotes ; random.nextInt() generates the random number; .length - pulls the list qty
-                    // code reads right to left ; .length, random.nextInt(), quote[]
                     System.out.println(selectedQuote);
                 } else {
                     System.out.println("Error: Invalid selection");
