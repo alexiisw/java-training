@@ -1,4 +1,4 @@
-package workbook3.fileio;
+package workbook3.fileio.FamousQuotes;
 
 import java.util.Random;
 import java.util.Scanner;

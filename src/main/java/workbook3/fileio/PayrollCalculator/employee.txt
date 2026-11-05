@@ -1,0 +1,11 @@
+Employee List
+1|Marcus Bennett|40|22.50|
+2|Olivia Carter|26|18.75|
+3|Ethan Mitchell|38|25.00|
+4|Sophia Reynolds|30|21.25|
+5|Daniel Foster|25|19.50|
+6|Ava Thompson|40|27.00|
+7|Caleb Morgan|32|23.75|
+8|Isabella Brooks|28|20.00|
+9|Nathan Cooper|38|24.50|
+10|Maya Richardson|37.5|28.25|
