@@ -1,0 +1,62 @@
+
+EXERCISE 1
+Create a new Java application named AssetManager.
+WARNING:  This is an academic example and is a hugely simplified version of
+anything real.
+The base class Asset can be defined with the following:
+
+ Properties: description : String
+    dateAcquired : String
+    originalCost : double
+
+    Methods: constructor
+    all getters / setters
+    getValue() : double       // returns original cost
+
+You will build two derived classes:  House and Vehicle.
+The House class inherits from Asset can be defined with the following:
+
+ Properties: address : String
+    condition : int (1 -excellent, 2 -good, 3 -fair, 4 -poor)
+    squareFoot : int
+    lotSize : int
+
+    Methods: constructor
+    all getters / setters
+    getValue() : double       (override)
+                             // A house's value is determined as
+                             // $180.00 per square foot (excellent)
+                             // $130.00 per square foot (good)
+                             // $90.00 per square foot (fair)
+                             // $80.00 per square foot (poor)
+                             // PLUS  25 cents per square foot of lot size
+The Vehicle class inherits from Asset can be defined with the following:
+Properties:
+Methods:
+makeModel : String
+year : int
+odometer : int
+constructor
+all getters / setters
+getValue() : double
+(override)
+// A car's value is determined as
+// 0-3 years old  - 3% reduced value of cost per year
+// 4-6 years old  - 6% reduced value of cost per year
+// 7-10 years old - 8% reduced value of cost per year
+// over 10 years old - $1000.00
+// MINUS  reduce final value by 25% if over 100,000 miles
+//
+unless makeModel contains word Honda or Toyota
+This program will not have a user interface.  In your main(), create an
+ArrayList of Asset objects.
+Load it with your Assets.  Include at least 2 houses (you have a vacation home!)
+and at least two vehicles.  Use descriptions like "my house" or "Tom's truck" for
+the assets.
+Now, loop thru the Asset collection displaying the description of each asset, the
+date you acquired it, how much you paid for it, and its value.
+When that works, go back and include in the display either the address of the
+house or the year and make/model of the vehicle.  You will need to use
+instanceof when you loop through the assets to detect the type of asset it is.
+Once you know it is a House or Vehicle, you will need to downcast it so that you
+can call the methods of the specific type.

@@ -1,0 +1,57 @@
+Practice Problems
+
+• If the files contain -optional, you are more than welcome to
+work on these as you please.
+
+• https://github.com/Pluralsight-ILT/YUU-Java
+
+
+CodeWars Kata (Optional)
+• Cats and Shelves - Find the least number of times a cat has to jump to make it to the
+top shelf
+• Complete this Kata for additional Java practice - https://www.codewars.com/kata/62c93765cef6f10030dfa92b/
+java
+
+CodeWars Kata (Optional)
+• Is it Even? - Determine if a given number is even - but there is a twist
+• Complete this Kata for additional Java practice - https://www.codewars.com/kata/555a67db74814aa4ee0001b5/
+java
+
+CodeWars Kata (Optional)
+• Credit Card Mask - Given a credit card number (as a string) mask all numbers except
+the last 4 digits
+• Complete this Kata for additional Java practice - https://www.codewars.com/kata/5412509bd436bd33920011bc/
+java
+
+CodeWars Kata (Optional)
+• Find the Average - Given an array of integers, find the average of all numbers - Return the answer as a double
+• Complete this Kata for additional Java practice - https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/
+java
+
+
+Questions to ask AI for better understanding:
+
+• Advancing Your Understanding with AI - As concepts become more complex, AI tools can help you
+visualize and grasp abstract ideas  - Remember that understanding these concepts deeply is crucial for
+your development as a programmer  - AI can help clarify, but you still need to implement and practice
+these concepts yourself
+• Effective Strategies for Advanced Topics - Request visual explanations of relationships
+* "Can you explain the relationship between abstract classes and interfaces
+using a diagram?"
+* Use the explanation to create your own diagrams and mental models - Ask for real-world analogies for abstract concepts
+* "How would you explain polymorphism using a real-world example
+from sports?"
+* This helps bridge theoretical knowledge with practical understanding - Explore design decisions - "When would I choose to use an interface instead of an abstract
+class in Java?" - Understanding the "why" behind patterns is as important as
+knowing the syntax
+• Sample Questions for Advanced Topics - For inheritance hierarchies:
+* "What are common mistakes when designing inheritance relationships?"
+* "How might I refactor this inheritance structure to be more flexible?"
+(show your current design) - For polymorphism:
+* "Can you explain how method overriding enables polymorphism in
+Java?"
+* "What are the benefits of using polymorphic collections in Java?" - For design patterns:
+* "How does the Singleton pattern relate to static methods we've learned
+about?"
+* "What problem does the Strategy pattern solve in object-oriented
+design?"

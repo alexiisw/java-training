@@ -15,7 +15,7 @@ public class Moped extends Vehicle {
 
         this.hasBasket = hasBasket;
     }
-    public boolean isHasBasket() {
+    public boolean getHasBasket() {
         return hasBasket;
     }
     public void setHasBasket(boolean hasBasket) {

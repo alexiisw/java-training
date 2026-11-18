@@ -1,0 +1,19 @@
+Exercises — Abstract Assets
+EXERCISE 1
+Create a copy of the Assets project and name it AbstractAssets. You will work in
+the AbstractAssets project.
+Part 1
+Modify your Asset class to be an abstract class.  Then make the getValue()
+method an abstract method.
+Re-test your application.
+Try to create an instance of an Asset.  What happens?
+Part 2
+Create a new class that extends Asset, the Cash class. This represents the cash
+that you stash away under your mattresses.
+The value of cash does not fluctuate, therefore there does not need to be any
+custom logic for the getValue() method.
+What issues are you running into when you try to create the Cash class? What
+are your options to address these issues?
+Part 3
+1. Ensure all your changes are committed and pushed to GitHub
+2. Send your repository URL to your Instructor
