@@ -1,4 +1,4 @@
-package workbook4;
+package workbook4.testExample;
 
 public class Main {
     public static void main(String[] args) {

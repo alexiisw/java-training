@@ -1,4 +1,4 @@
-package workbook4;
+package workbook4.testExample;
 
 import org.junit.Test;
 
