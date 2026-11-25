@@ -21,8 +21,7 @@ public class Main {
                 if(original.equals(reversed)) { // checks whether the original string and reversed string match
                     System.out.println("Palindrome found: " + product);
 
-                // TODO: If it is a palindrome and larger than the
-                // current largestPalindrome, update largestPalindrome
+                // TODO: If it is a palindrome and larger than the current largestPalindrome, update largestPalindrome
                     if (product > largestPalindrome) { // checks whether this palindrome is bigger than the current one
                         largestPalindrome = product; // updates the largest palindrome
                     }
